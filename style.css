@@ -1,0 +1,87 @@
+.clearfix {
+    clear: both;
+}
+
+.headerlogo {
+    float: left;
+}
+.headerlogo img {
+    width: 200px;
+}
+
+#headername {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.searchbox {
+    float: right;
+    margin-top: 55px;
+    margin-right: 20px;
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+
+.navbar-background {
+    background-color: purple;
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;    
+}
+.navbar-background ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+.navbar-background li {
+    display: inline-block;
+}
+.navbar-background a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+    text-transform: uppercase;
+}
+div#welcomeimage img {
+    width: 100%;
+    margin-bottom: 60px;
+}
+div#coffeeofthemonth {
+    text-align: center;
+    display: block;
+}
+#welcometext header {
+    font-size: 50px;
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#welcometext span {
+    color: #000;
+    column-count: 2;
+    display: block;
+    text-align: justify;
+}
+
+fieldset {
+    border: 0;
+}
+
+article h4,
+fieldset legend {
+    font-family: 'Bungee', cursive;
+    font-size: 22px;
+    color: purple;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px 0px;
