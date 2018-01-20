@@ -33,7 +33,7 @@
 <fieldset>
 <legend>Mr. Robot's Top Robot Models</legend>
 
-<ul>
+<ul class="robots-catalog">
 <li >
   <article id="robo1">
   <h4>
@@ -95,17 +95,18 @@
      </template>
 </template>
 <script>
-  var robo = document.querySelector('#robo1').createShadowRoot();
+  //var robo = document.querySelector('#robo1').createShadowRoot();
   /*Step1*/
-  let prdTemplate = document.querySelector('#producttemplate');
+  //let prdTemplate = document.querySelector('#producttemplate');
   /*Step2*/
-  let clone = document.importNode(prdTemplate.content, true);
+  //let clone = document.importNode(prdTemplate.content, true);
   /*Step3*/
 
-  clone.querySelector('#pimage').src = 'images/roboDog.png';
-  clone.querySelector('#lblName').textContent = 'R.E.T';
+ // clone.querySelector('#pimage').src = 'images/roboDog.png';
+  // clone.querySelector('#lblName').textContent = 'R.E.T';
 
  /*Step4*/
+  /*
   robo.appendChild(clone);
   let userTemplate = document.querySelector('#user');
   let userClone = document.importNode(userTemplate.content, true);
@@ -113,8 +114,16 @@
     let addressTemplate = document.querySelector('#address');
     let addressClone = document.importNode(addressTemplate.content, true);
   document.body.appendChild(addressClone);
+  */
 </script>
-<script src="script.js"></script>
+
+<!-- Include the jQuery library -->
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+  <script src="script.js"></script>
 
 </body>
 </html>
